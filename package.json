@@ -1,0 +1,27 @@
+{
+  "name": "node-brigadier-prompt",
+  "version": "1.0.0",
+  "description": "A shell-style prompt for brigadier CLIs",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "keywords": [],
+  "author": "Picoseconds",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "get-cursor-position": "^1.0.5",
+    "strip-ansi": "^6.0.0"
+  },
+  "peerDependencies": {
+    "node-brigadier": "^0.0.12"
+  }
+}
